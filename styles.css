@@ -4,14 +4,17 @@ body {
     font-size: 20px;
 }
 
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
 .parent {
     text-align: center;
 }
 
-.parent > ul {
+.child {
     display: inline-block;
-}
+    padding: 20px;
 
-h1 {
-    text-align: center;
-    font-size: 40px;
+}
